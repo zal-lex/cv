@@ -1,0 +1,52 @@
+.container {
+  background-color: #232426;
+}
+
+.avatorka {
+  padding-left: 4%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.avatorka img {
+  margin-top: 15px;
+  max-width: 70%;
+  box-sizing: border-box;
+}
+
+.contacts {
+  background-image: url(../images/red_background.png);
+  padding: 20px 0 20px 10px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contacts img {
+  max-width: 25px;
+  vertical-align: middle;
+}
+
+.experience {
+  background-color: #26282b;
+}
+
+#cv-text {
+  padding: 1% 4% 1% 4%;
+}
+
+#cv-text h4 {
+  color: #ca5547;
+}
+
+#cv-text ul {
+  list-style-image: url("../images/list.png");
+}
+
+span {
+  color: #ca5547;
+  font-weight: 300;
+  font-size: 1.2em;
+}
