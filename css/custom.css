@@ -32,9 +32,12 @@
 .experience {
   background-color: #26282b;
 }
+.about {
+  padding-right: 1%;
+}
 
 #cv-text {
-  padding: 1% 4% 1% 4%;
+  padding: 3% 4% 1% 4%;
 }
 
 #cv-text h4 {
@@ -45,8 +48,17 @@
   list-style-image: url("../images/list.png");
 }
 
-span {
+.red {
   color: #ca5547;
   font-weight: 300;
   font-size: 1.2em;
+}
+
+.white {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+a {
+  color: #ca5547;
 }
