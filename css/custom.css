@@ -62,6 +62,11 @@ h4 {
   font-size: 1.2em;
 }
 
+.red-small {
+  color: #ca5547;
+  font-weight: 300;
+}
+
 .white {
   font-weight: 300;
   font-size: 1.2em;
