@@ -2,6 +2,18 @@
   background-color: #232426;
 }
 
+h4 {
+  color: #ca5547;
+}
+
+.avatorka h4 {
+  color: #fff;
+}
+
+.contacts h4 {
+  color: #fff;
+}
+
 .avatorka {
   padding-left: 4%;
   font-size: 1.5em;
@@ -29,7 +41,7 @@
   vertical-align: middle;
 }
 
-.experience {
+.gray-bkg {
   background-color: #26282b;
 }
 .about {
@@ -40,11 +52,7 @@
   padding: 3% 4% 1% 4%;
 }
 
-#cv-text h4 {
-  color: #ca5547;
-}
-
-#cv-text ul {
+.list-style-check ul {
   list-style-image: url("../images/list.png");
 }
 
@@ -61,4 +69,14 @@
 
 a {
   color: #ca5547;
+}
+
+.underline {
+  border-bottom-color: #ca5547;
+  border-bottom-style: outset;
+  border-bottom-width: 0.5px;
+}
+
+.padding-left {
+  padding-left: 2%;
 }

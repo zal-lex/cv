@@ -38,36 +38,153 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
     <div class="row">
-      <div id="cv-text" class="one-half column experience">
+      <div id="cv-text">
+        <h4>TECHNICAL SKILLS</h4>
+        <div class="row underline">
+          <div class="two columns">Skill</div>
+          <div class="ten columns">Description</div>
+        </div>
+        <div class="row underline">
+          <div class="two columns">Ruby and Ruby on Rails</div>
+          <div class="ten columns">
+            - Понимаю принципы ООП и паттерна проектирования MVC<br>
+            - Умею писать грамотный, понятный, чистый код, соответствующий принципам DRY и SOLID<br>
+            - Использую Rubocop для проверки соответствия кода код-стайлу<br>
+            - Умею работать с внешними API<br>
+            - В процессе обучения реализовал несколько учебных проектов с использованием популярных гемов:<br>
+            <ul class="none-list-style padding-left">
+              <li>Devise - аутентификация</li>
+              <li>OmniAuth - аутентификация через соц. сети</li>
+              <li>i18n - локализация под разные языки</li>
+              <li>Pundit - авторизация пользователей</li>
+              <li>Fog-aws, carrierwave, rmagick - обработка и хранение изображений на Amazon S3</li>
+              <li>Factory_bot - создание фабрик для автоматизированного тестирования</li>
+              <li>Capybara - тестирование представлений</li>
+              <li>Activejob, Resque - отправка e-mail в фоновых задачах</li>
+              <li>Bundler - управление гемами проекта</li>
+              <li>ActionCable, WebSockets - использовались для написания простого онлайн-чата по шаблону проектирования Pub/Sub</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row underline">
+          <div class="two columns">RSpec</div>
+          <div class="ten columns">- Пишу тесты для программ на языке Ruby, а также тесты на Модели, Представления и Контроллеры в Rails приложениях</div>
+        </div>
+        <div class="row underline">
+          <div class="two columns">Frontend</div>
+          <div class="ten columns">
+            - HTML, CSS, Bootstrap, Skeleton использовались для адаптивной вёрстки этого резюме и коммерческой <a href="https://zal-lex.github.io/landing_airpodspro/">landing-page</a> по продаже AirPods Pro<br>
+            - JavaScript, JQuery применялись только для реализации parallax эффекта на первом экране приведённого выше лендинга и при настройке web-сокетов. Планирую активно изучать после освоения Ruby и Ruby on Rails
+          </div>
+        </div>
+        <div class="row underline">
+          <div class="two columns">Базы данных</div>
+          <div class="ten columns">
+            - Понимаю принципы работы реляционных и noSQL баз данных<br>
+            - Имею опыт использования языка SQL при работе с соответствующими СУБД: SQLite3, MySQL, PostgreSQL. Последнюю настраивал на production среде для учебных проектов<br>
+            - Redis (совместно с Resque) использовал для настройки фоновой отправки почты
+          </div>
+        </div>
+        <div class="row underline">
+          <div class="two columns">DevOps</div>
+          <div class="ten columns">
+            - Учебные проекты задеплоены на Heroku или VPS-сервер digitalocean. Деплой на VPS был настроен с использованием Capistrano. На сервере работает связка nginx + Phusion Passenger
+          </div>
+        </div>
+        <div class="row underline">
+          <div class="two columns">Git/GitHub</div>
+          <div class="ten columns">
+            - Понимаю базовые принципы систем контроля версий<br>
+            - Умею вести подробный log коммитов, правильно и информативно писать commit-месседжи<br>
+            - Знаю основные команды, необходимые при ведении проекта
+          </div>
+        </div>
+        <div class="row underline">
+          <div class="two columns">Другие знания и навыки</div>
+          <div class="ten columns">
+            - Понимаю основы сетевого взаимодействия и принцип работы HTTP<br>
+            - Знаю Linux на уровне пользователя<br>
+            - Использовал Trello для управления пректом, Slack - для общения<br>
+            - По возможности стараюсь полностью покрывать свой код тестами. Верю, что с приобретением практического опыта научусь TDD<br>
+            - Знаю, что такое дебаг и умею пользоваться binding.irb и binding.pry для выявления багов<br>
+            - Умею работать с разными структурами данных (XML, JSON). На практике использовал язык запросов XPath
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div id="cv-text" class="one-half column gray-bkg">
+          <p class="white">Проекты на Ruby:</p>
+          <p>Викторина (<a href="https://github.com/zal-lex/quiz">GitHub</a>) - работа с файлами</p>
+          <p>Hangman game (<a href="https://github.com/zal-lex/hangman">GitHub</a>) - работа с файлами, основы ООП</p>
+          <p>Console weather focast (<a href="https://github.com/zal-lex/meteoservice">GitHub</a>) - работа с внешними API, работа с XML (XPath), написание тестов на RSpec</p>
+        </div>
+        <div id="cv-text" class="one-half column">
+          <p class="white">Проекты на Ruby on Rails:</p>
+          <p>AskMe (<a href="https://zal-lex-askme.herokuapp.com/">Сайт</a>, <a href="https://github.com/zal-lex/askme">GitHub</a>) - аналог сайа ask.fm</p>
+          <p>Шашлыки (<a href="https://craio.ru/">Сайт</a>, <a href="https://github.com/zal-lex/bbq">GitHub</a>) - сервис организации встреч, в котором можно зарегистрироваться как по e-mail, так и через соц. сети. Встречу можно комментировать, загружать к ней фото.</p>
+        </div>
+    </div>
+    <div class="row">
+      <div id="cv-text">
+        <h4>EDUCATION</h4>
+        <div class="row">
+          <div class="four columns white">
+            <p>март 2020 - ...</p>
+          </div>
+          <div class="eight columns">
+            <span class="red">Building Modern Web with Ruby in Clouds</span>
+            <p>Командная разработка полноценного Web-приложения.</p>
+            <p>Подробнее о тренинге:
+            <span><a href="https://training.by/#!/Training/2433?lang=ru">training.by</a></span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="four columns white">
+            <p>ноябрь 2019 -<br>май 2020</p>
+          </div>
+          <div class="eight columns">
+            <span class="red">Хороший программист</span>
+            <p>Основные технологии:<br>Ruby, Ruby on Rails, Rspec.</p>
+            <p>Полный стек изученных технологий можно посмотреть в программе курса:
+            <span><a href="https://goodprogrammer.ru/rails">goodprogrammer.ru</a></span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="four columns white">
+            <p>сентябрь 2019 -<br>октябрь 2019</p>
+          </div>
+          <div class="eight columns">
+            <span class="red">Ruby Rush</span>
+            <p>Бесплатный курс по программированию на руби
+              <span><a href="https://rubyrush.ru/">rubyrush.ru</a></span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="four columns white">
+            <p>сентябрь 2007 -<br>июнь 2012</p>
+          </div>
+          <div class="eight columns">
+            <span class="red">БГУИиР</span>
+            <p>Факультет Информационных технологий и управления.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="cv-text" class="one-half column list-style-check">
+        <h4>LANGUAGES</h4>
+        <div>
+          <ul>
+            <li>English B1</li>
+            <li>Русский</li>
+            <li>Беларускі</li>
+          </ul>
+        </div>
+      </div>
+      <div id="cv-text" class="one-half column gray-bkg">
         <h4>EXPERIENCE</h4>
-        <div class="row">
-          <div class="four columns"><p></p></div>
-          <div class="eight columns">
-            <p>RUBY/ROR STUDENT</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="four columns">
-            <p class="white">ноябрь 2019 - май 2020</p>
-          </div>
-          <div class="eight columns">
-            <p class="red">Хороший программист</p>
-            <p>
-              Проекты на Ruby:
-              <p><a href="https://github.com/zal-lex/quiz">Викторина</a> - работа с файлами<br>
-              <a href="https://github.com/zal-lex/hangman">Hangman game</a> - работа с файлами, основы ООП<br>
-              <a href="https://github.com/zal-lex/meteoservice">Console weather focast</a> - работа с внешними API, работа с XML (XPath), написание тестов на RSpec</p>
-            </p>
-            <p>
-              Проекты на Ruby on Rails:
-              <p><a href="https://github.com/zal-lex/askme">AskMe</a> - аналог сайа ask.fm. Деплой на Heroku, подключение Google Captcha</p>
-              <p><a href="https://github.com/zal-lex/bbq">Шашлыки</a> - сервис организации встреч. Полный список изученных технологий по ссылке</p>
-            </p>
-          </div>
-        </div>
         <div class="row">
           <div class="four columns"><p></p></div>
           <div class="eight columns">
@@ -97,71 +214,6 @@
           <div class="eight columns">
             <p class="red">ARTOX Media</p>
           </div>
-        </div>
-        <h4>USED TECHNOLOGY STACK</h4>
-        <div>
-          <ul>
-            <li>Ruby, Ruby on Rails</li>
-            <li>RSpec, factory_bot, capybara</li>
-            <li>HTML, CSS, Bootstrap, Skeleton, JS</li>
-            <li>SQL, PostgreSQL, SQLite</li>
-            <li>git, github, heroku, capistrano, Amazon AWS</li>
-            <li>XML, XPath, JSON</li>
-            <li>Devise, Pundit, OmniAuth</li>
-            <li>ActiveJob, ServiceObject</li>
-          </ul>
-        </div>
-      </div>
-      <div id="cv-text" class="one-half column">
-        <h4>EDUCATION</h4>
-        <div class="row">
-          <div class="four columns">
-            <p>март 2020 - ...</p>
-          </div>
-          <div class="eight columns">
-            <span class="red">Building Modern Web with Ruby in Clouds</span>
-            <p>Командная разработка полноценного Web-приложения.</p>
-            <p>Подробнее о тренинге:
-            <span><a href="https://training.by/#!/Training/2433?lang=ru">training.by</a></span></p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="four columns">
-            <p>ноябрь 2019 - май 2020</p>
-          </div>
-          <div class="eight columns">
-            <span class="red">Хороший программист</span>
-            <p>Основные технологии:<br>Ruby, Ruby on Rails, Rspec.</p>
-            <p>Полный стек изученных технологий можно посмотреть в программе курса:
-            <span><a href="https://goodprogrammer.ru/rails">goodprogrammer.ru</a></span></p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="four columns">
-            <p>сентябрь 2019 - октябрь 2019</p>
-          </div>
-          <div class="eight columns">
-            <span class="red">Ruby Rush</span>
-            <p>Бесплатный курс по программированию на руби
-              <span><a href="https://rubyrush.ru/">rubyrush.ru</a></span></p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="four columns">
-            <p>2007 - 2012</p>
-          </div>
-          <div class="eight columns">
-            <span class="red">БГУИиР</span>
-            <p>Факультет Информационных технологий и управления.</p>
-          </div>
-        </div>
-        <h4>LANGUAGES</h4>
-        <div>
-          <ul>
-            <li>English B1</li>
-            <li>Русский</li>
-            <li>Беларускі</li>
-          </ul>
         </div>
       </div>
     </div>
